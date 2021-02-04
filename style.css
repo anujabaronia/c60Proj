@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+
+}
+
+.intro {
+    z-index: 9;
+    top: 10px;
+}
+
+#imgHobby {
+    margin-bottom: 50px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+
+h1 {
+    /*text-shadow:2px 2px #F8BBD0;*/
+    font-size: 20px;
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+
+
+p {
+    font-size: 18px;
+    color: #6A1B9A;
+
+
+}
+
+h2 {
+    font-size: 20px;
+    color: #1A237E;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background-color: #DAF7A6;
+}
+
+#favbook {
+    margin-bottom: 30px;
+    background-color: bisque;
+    padding: 20px;
+}
+
+#name {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#name1 {
+    font-family: 'Sriracha', cursive;
+}
+
+.menu {
+
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    /* try using fixed and see the changes*/
+    top: 10px;
+    right: 30px;
+    /*try changing it to lef:30px;*/
+    z-index: 10;
+    /*The z-index refers to overlapping or overlaying of html elements. hence changes done in welcome selector also*/
+    cursor: pointer;
+    /*Cursor needs to appear clickable so it is set to ‘pointer’.*/
+}
+
+.links {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: dodgerblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#imgAuthor {
+    height: 500px;
+    width: 700px;
+    border-style: double;
+    border-width: thick;
+    
+}
+
+#imgAuthor:hover {
+  transform: scale(.9,.9);
+}
+
+#anchorimg{
+    color: black;
+}
